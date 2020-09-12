@@ -1,0 +1,24 @@
+{
+  "name": "Показ выделенного текста на отдельной вкладке",
+  "description": "Добавляет в контекстное меню пункт при нажатии на который выделенный текст будет показан на отдельной вкладке",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "addContextMenuItem.js"
+    ]
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_48.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "manifest_version": 2
+}
